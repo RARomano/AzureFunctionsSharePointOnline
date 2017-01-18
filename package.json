@@ -1,0 +1,24 @@
+{
+  "name": "azurefunctionssample",
+  "version": "1.0.0",
+  "description": "Repositório para demonstrar como utilizar o Azure Functions para fazer processamento do lado do Servidor em um arquitetura Serverless e invocando essas funções diretamente do SharePoint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RARomano/AzureFunctionsSharePointOnline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RARomano/AzureFunctionsSharePointOnline/issues"
+  },
+  "homepage": "https://github.com/RARomano/AzureFunctionsSharePointOnline#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0"
+  }
+}
