@@ -29,7 +29,7 @@ module.exports = function () {
         // Make a request to get all users in the tenant. Use $select to only get
         // necessary values to make the app more performant.
         request.post(postData, function (err, response, body) {
-          if (err || (body && JSON.parse(body)["odata.error"])) {
+          if (err || (body && body["odata.error"])) {
             reject(err || body);
           } else {
             // The value of the body will be an array of all users.
