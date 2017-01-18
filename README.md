@@ -47,3 +47,7 @@ $(function() {
 
 Para testes, você pode rodar essa código diretamente no console do chrome:
 ![image](https://cloud.githubusercontent.com/assets/12012898/22022184/06c8069a-dca8-11e6-978b-7214b71041e5.png)
+
+
+
+> Veja a **Parte 2** aqui: https://github.com/RARomano/AzureFunctionsSharePointOnline/blob/master/CreateItemInSharePoint.md
